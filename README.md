@@ -8,7 +8,6 @@ Main idea: Make a scoring system from the parameters given by the dataset, with 
 Download for dataset:
 import kagglehub
 
-# Download latest version
 path = kagglehub.dataset_download("adebusayoadewunmi/nuclearfusion-data")
 
 print("Path to dataset files:", path)
