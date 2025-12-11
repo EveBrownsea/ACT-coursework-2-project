@@ -1,0 +1,55 @@
+# Data types and their links to scores.
+This document explains each parameter in the dataset and how they will contribute to the overall score of a given run.
+
+## Magnetic Field Fluctuation (T)
+Magnitude of maximum fluctuation in the magnetic containment field. See Magnetic Field Strength for score details.
+
+## Leakage (%)
+% of plasma loss due to leakage. Inversely proportional to score.
+
+## Percentage of Instabilities (%)
+% of plasma that underwent instability. Inversely proportional to score.
+
+## Magnetic Field Strength (T)
+Strength of magnetic containment field. Score is related to the percentage value of magnetic field fluctuation over the total MFS.
+
+## Magnetic Field Configuration
+Use as a primary category.
+
+## Injection Energy (MJ)
+Energy of the injection beam used to heat the plasma. Add this to input energy when calculating the energy input/output score.
+
+## Beam Symmetry (%)
+Symmetry between injection beams. Unsure how this contributes to score.
+
+## Target Density (m^-3)
+Unsure.
+
+## Target composition 
+Type of fuel used in fusion reaction. Use as a secondary category.
+
+## Fuel Density (m^-3)
+Density of fuel. Unsure how this contributes to score.
+
+## Temperature (Kelvin)
+Temperature reached by the plasma. Positive correlation with score (??)
+
+## Confinement time (Seconds)
+Time during which plasma was successfully confined. Positive correlation with score.
+
+## Energy Input (MJ)
+Total energy used to initiate the fusion reaction.
+
+## Power output (MW)
+Total power produced by the fusion reaction. Multiply this by the confinement time to get energy output, then take the ratio 
+of energy input and output; ratio is proportional to score.
+
+## Pressure (Pa)
+Pressure inside the plasma reaction chamber. Unsure how this contributes to score.
+
+## Neutron yield (n/s)
+Number of neutrons produced by the reaction per second. Unsure how this contributes to score.
+
+## Ignition
+Shows whether or not a plasma reaction became self-sustaining; 0 indicates no, 1 indicates yes. 1 will positively contribute
+to score.
