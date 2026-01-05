@@ -1,7 +1,11 @@
 # Dependencies
 
 Pandas | Version 1.5.1
+
 Matplot lib | Version 4.0.0
+
 Scikit Learn | Version 1.6.1
+
 Seaborn | Version 0.13.2
+
 Numpy | 1.23.4
